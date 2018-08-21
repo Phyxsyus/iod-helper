@@ -17,7 +17,7 @@ const  	GIANT = [50121.215,-72670.48,-5719.476,13,2328],
 		myY,
 		myZ
 
-	  dispatch.hook('C_CHECK_EVENT_MATCHING_LIST_CHECKBOX', 1, event => {
+	  dispatch.hook('C_CHECK_EVENT_MATCHING_LIST_CHECKBOX', 2, event => {
 		qid = event.id
 		if(!enabled) return
 		else if (qid == 2321){ 
